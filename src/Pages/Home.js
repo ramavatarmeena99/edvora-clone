@@ -12,7 +12,6 @@ export default function Home() {
     })
       .then((res) => {
         setApiUserData(res.data);
-        console.log(JSON.stringify(res.data));
       })
       .catch((err) => {});
   }, []);
